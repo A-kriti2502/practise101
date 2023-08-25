@@ -314,7 +314,8 @@ form input{
     width: 400px;
     height: 45px;
     border-radius: 4px;
-    text-align: center;
+    text-align: left;
+    padding: 1rem;
     margin-top: 20px;
     margin-bottom: 40px;
     outline: none;
@@ -329,6 +330,10 @@ footer button{
     font-size: 15px;
     cursor: pointer;
 }
+footer button:hover{
+    background: #990000;
+    color: white;
+}
 .tab{
     margin-left: 20px;
     
@@ -340,7 +345,6 @@ footer button{
 .fq{
     font-family: 'Lato', sans-serif;
 }
-/* api - mailchimp */
 .name{
     width: 250px;
     margin: 5px 5px;
